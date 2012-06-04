@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+ <name>nikic.github.com/pear</name>
+ <summary>nikic's PEAR channel</summary>
+ <alias>nikic</alias>
+ <url>http://nikic.github.com/pear</url>
+</server>
