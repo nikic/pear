@@ -13,12 +13,20 @@
 
         <a>
             <r>
+                <v>0.9.2</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>0.9.1</v>
                 <s>beta</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>0.9.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.6";}}}</d>
+        </deps>
         <deps>
             <v>0.9.1</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.6";}}}</d>

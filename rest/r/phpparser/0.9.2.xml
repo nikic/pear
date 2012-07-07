@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/phpparser">PHPParser</p>
+    <c>nikic.github.com/pear</c>
+    <v>0.9.2</v>
+    <st>beta</st>
+    <l>BSD</l>
+    <m>nikic</m>
+    <s>A PHP parser written in PHP</s>
+    <d>A PHP 5.4 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
+    <da>2012-07-07 20:28:48</da>
+    <n>
+No release notes
+ </n>
+    <f>58773</f>
+    <g>http://nikic.github.com/pear/get/PHPParser-0.9.2</g>
+    <x xlink:href="package.0.9.2.xml"/>
+</r>
