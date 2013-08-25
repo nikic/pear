@@ -5,6 +5,6 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>BSD</l>
 <s>A PHP parser written in PHP</s>
-<d>A PHP 5.4 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
+<d>A PHP 5.5 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
 <r xlink:href="/rest/r/phpparser" />
 </p>

@@ -9,7 +9,7 @@
     <l>BSD</l>
     <m>nikic</m>
     <s>A PHP parser written in PHP</s>
-    <d>A PHP 5.4 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
+    <d>A PHP 5.5 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
     <da>2012-07-07 20:28:48</da>
     <n>
 No release notes

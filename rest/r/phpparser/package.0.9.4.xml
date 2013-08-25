@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHPParser</name>
+ <channel>nikic.github.com/pear</channel>
+ <summary>A PHP parser written in PHP</summary>
+ <description>A PHP 5.5 (and older) parser written in PHP to simplify static analysis and code manipulation.</description>
+ <lead>
+  <name>Nikita Popov</name>
+  <user>nikic</user>
+  <email>nikic@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-08-25</date>
+ <time>20:03:12</time>
+ <version>
+  <release>0.9.4</release>
+  <api>0.9.4</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license>BSD</license>
+ <notes>
+No release notes
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHPParser" name="/">
+   <file baseinstalldir="PHPParser" md5sum="0a41648a4678360e1fca66d2b1850cd4" name="PHPParser/Autoloader.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="0938127a4318bde89e9625f42d812e2f" name="PHPParser/Builder.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="806d1ebe65864eefd99891fb2ba58fbb" name="PHPParser/BuilderAbstract.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f816d52970763dcd9700297b7528084e" name="PHPParser/BuilderFactory.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="dedad7fbb9439a1ec2af050d4df0bda7" name="PHPParser/Comment.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="43000ed1ad06b73346b8ea8a9ee2e995" name="PHPParser/Error.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="aaaf8e9c47eec61d43debe5da3a38283" name="PHPParser/Lexer.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6349cb2959eeb424e1bb9140cc1385bd" name="PHPParser/Node.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="1d1100a5ea2952eb323f7a19d92e4617" name="PHPParser/NodeAbstract.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c012d430cb503d1d4a9293009793337d" name="PHPParser/NodeDumper.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e0893402f2f5e2799af1a81e3f3c2445" name="PHPParser/NodeTraverser.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="b43893f082eb1914c5983c3f9f393239" name="PHPParser/NodeTraverserInterface.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="515e974f9d7c74ea21798cda59181562" name="PHPParser/NodeVisitor.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="18584ecaa3648fb38130450253be83ef" name="PHPParser/NodeVisitorAbstract.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="51ecde7e21f287a2a403731b6e4e3724" name="PHPParser/Parser.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5f74f6cdec17c785912430867361c86f" name="PHPParser/PrettyPrinterAbstract.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="7d18a025c01acf621e1e7b9295b8c6d1" name="PHPParser/Serializer.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="172a3a5df5eceec1710496cfda705abc" name="PHPParser/Template.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6f013d2151133e39923cae1d0d911317" name="PHPParser/TemplateLoader.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8ca2948d36ab048484fd246c5cb9f5d6" name="PHPParser/Unserializer.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a773c180cc1aa13150e03365a79d5a2f" name="PHPParser/Builder/Class.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f964fe1a3f2f06bc9215bea2a862102f" name="PHPParser/Builder/Function.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a9d7c3560b3fbe274a5737b362a0069a" name="PHPParser/Builder/Interface.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6f566dfbe0f2af5057053d996ea2bcae" name="PHPParser/Builder/Method.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="aa8ccd839d9cd186c9ce8288ec4b8f67" name="PHPParser/Builder/Param.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="59d737c68c710215fbf3f9c3aef677e5" name="PHPParser/Builder/Property.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="957879e21e157ff4a15ca4ac10e7a5d0" name="PHPParser/Comment/Doc.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="0b8963b5d448b00c98f6149cd7723519" name="PHPParser/Lexer/Emulative.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a13a19193698bca71b1a2a6d8e3929d7" name="PHPParser/Node/Arg.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e9aff0ea66b6411a047f8ce2c2ab9006" name="PHPParser/Node/Const.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="68867d5a547389711e9875c45b247f43" name="PHPParser/Node/Expr.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fa1fb56b648c0cd5cc02052421ace47b" name="PHPParser/Node/Name.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9046dba6a1e768a3a4f0ae55cd199c52" name="PHPParser/Node/Param.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d1f95ec1485bdd621d9c67a0ddcb0f61" name="PHPParser/Node/Scalar.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e969522173c9a1e1725b343d54848deb" name="PHPParser/Node/Stmt.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="153c28871ffd4e5a47e0107c893b546b" name="PHPParser/Node/Expr/Array.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="41587042728d494677c8697e951a9159" name="PHPParser/Node/Expr/ArrayDimFetch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="664103c655e1ad08b8faa70a5e732279" name="PHPParser/Node/Expr/ArrayItem.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="cf52d91b5d0b8145f9c051f786627328" name="PHPParser/Node/Expr/Assign.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2997195407d812273bc4cb8a9b387ee8" name="PHPParser/Node/Expr/AssignBitwiseAnd.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8c8da59bb947c401b27ff17f879bba50" name="PHPParser/Node/Expr/AssignBitwiseOr.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="960384ff03f65b672e854d24c317505c" name="PHPParser/Node/Expr/AssignBitwiseXor.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d4b17156554d40caf2219b6bb0472280" name="PHPParser/Node/Expr/AssignConcat.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5793e85e76220d201ade493f82220d8b" name="PHPParser/Node/Expr/AssignDiv.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="736659ee63192ab4c583fca224c5b72b" name="PHPParser/Node/Expr/AssignMinus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a542925fee6f00389e75525c276f1109" name="PHPParser/Node/Expr/AssignMod.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="32158cf67956dc489ba627eed1bb0b9f" name="PHPParser/Node/Expr/AssignMul.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f4d5400ec2eb88338b9abb60cd294b2d" name="PHPParser/Node/Expr/AssignPlus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2f33fa2bdac5e834468ddbe7464036d3" name="PHPParser/Node/Expr/AssignRef.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d7e6a943f347fd2d921f0b17f73d504b" name="PHPParser/Node/Expr/AssignShiftLeft.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="bd8d5df83465ed477836246783303a10" name="PHPParser/Node/Expr/AssignShiftRight.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="7896dd6d30e2480c378fa488bf56eb70" name="PHPParser/Node/Expr/BitwiseAnd.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a045af3a43c0edd31f66321ce6d45246" name="PHPParser/Node/Expr/BitwiseNot.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="435838e0e4a442b3f71b3892d5804921" name="PHPParser/Node/Expr/BitwiseOr.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a0ac63c118a92ecbdd8c0f6a3816afe3" name="PHPParser/Node/Expr/BitwiseXor.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5e5636408bf035a6225edfc058d47a75" name="PHPParser/Node/Expr/BooleanAnd.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d2419e57ee01a0bebe78a5a5991dd1df" name="PHPParser/Node/Expr/BooleanNot.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="53786e83c19d6866abcd7a1d4e49dd15" name="PHPParser/Node/Expr/BooleanOr.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="589f775bf4e1e103fb850fcd1599df78" name="PHPParser/Node/Expr/Cast.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="de0b2b374c98d139786ea4eae2c5c9be" name="PHPParser/Node/Expr/ClassConstFetch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e537f8afb1f8982fa46e3f40dfad06dd" name="PHPParser/Node/Expr/Clone.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="aa0f788fad264172f4e6e69aff77da59" name="PHPParser/Node/Expr/Closure.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5acd6e198d8474d4d4621863ce68062d" name="PHPParser/Node/Expr/ClosureUse.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6632c4156bc991041639f06b72572a72" name="PHPParser/Node/Expr/Concat.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5cf07948861a94ce79e4cf9bedd5e5a1" name="PHPParser/Node/Expr/ConstFetch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c1f99457be329f15b8f2e133cfc77048" name="PHPParser/Node/Expr/Div.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8a56658037032d114c1cc12bcc364f2d" name="PHPParser/Node/Expr/Empty.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="4a41d7eb4dcce016234024beeb4c4c13" name="PHPParser/Node/Expr/Equal.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="25ec8c034a2340416c0fd6ba899b6c1e" name="PHPParser/Node/Expr/ErrorSuppress.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="3973ae24dac298f960e5fee0a69fddd6" name="PHPParser/Node/Expr/Eval.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f3eda0dd76875f7efe11695e432e3db4" name="PHPParser/Node/Expr/Exit.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="bf7ca2b92655ca85d17e3e4ab10f6976" name="PHPParser/Node/Expr/FuncCall.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="1bdef505e111d6d104ce07f5a8178163" name="PHPParser/Node/Expr/Greater.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c586b973ac68daa7e4036197f53ee4a0" name="PHPParser/Node/Expr/GreaterOrEqual.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="aec320b3cafdec3341f0d92f668e532d" name="PHPParser/Node/Expr/Identical.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="69f488b8188631749c19aba39f964f05" name="PHPParser/Node/Expr/Include.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2a7f34241f965d4452e8b83b8d3d8ab9" name="PHPParser/Node/Expr/Instanceof.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="ea044b87b7d1a269eb26e46ebc26e6ed" name="PHPParser/Node/Expr/Isset.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2d8bebd6e1afc55e32dc5f532aa68089" name="PHPParser/Node/Expr/List.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c958b2e87c4481e9ed19281a6d507ca5" name="PHPParser/Node/Expr/LogicalAnd.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6f0d070fea69aa03a4859fb29114e2a5" name="PHPParser/Node/Expr/LogicalOr.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e313a5e7a74e611553cbee278989bb78" name="PHPParser/Node/Expr/LogicalXor.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9b26f642e2ccab2a57f89994d3b572ac" name="PHPParser/Node/Expr/MethodCall.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d965ca8916527802844cd18fbc269987" name="PHPParser/Node/Expr/Minus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="675d695d2275e928f564cda76fe3160f" name="PHPParser/Node/Expr/Mod.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="35f7b2f135d96e97786e7904707e4e27" name="PHPParser/Node/Expr/Mul.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9402ed3c5c38208e47821efeaba6aa39" name="PHPParser/Node/Expr/New.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="890d998cda356c7cdc3ae6b4233701f5" name="PHPParser/Node/Expr/NotEqual.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a5e5f8d2fc210ec7596bce04d5062e1a" name="PHPParser/Node/Expr/NotIdentical.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="55c8ff70b6ed2067927008e100c4b676" name="PHPParser/Node/Expr/Plus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="53415c62147d458c3b39cd9f1ee45585" name="PHPParser/Node/Expr/PostDec.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="72d68b6193b2b93f67c45dcf878aa90b" name="PHPParser/Node/Expr/PostInc.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="cfa013024d90702d32188f80e03ebca7" name="PHPParser/Node/Expr/PreDec.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5a013dfb1318d07691aed9e8b628720b" name="PHPParser/Node/Expr/PreInc.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c43732b2f7065efb037db09eae541c0d" name="PHPParser/Node/Expr/Print.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c24c6f337323ad8a3f924f655e599859" name="PHPParser/Node/Expr/PropertyFetch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="1c502938a2e446bb6ac46decee464d9e" name="PHPParser/Node/Expr/ShellExec.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="517dd9312a5606d72f3150c3c4be1537" name="PHPParser/Node/Expr/ShiftLeft.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2300387ce1e3c88f4f51dc293823ef1b" name="PHPParser/Node/Expr/ShiftRight.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="cc95f6d494450ff4ed5c5f2de6bb9cd1" name="PHPParser/Node/Expr/Smaller.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="41d4d4a85b1a0a7c54253893f84fcc00" name="PHPParser/Node/Expr/SmallerOrEqual.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="bce01748e6dcd7927e6df645c6abee28" name="PHPParser/Node/Expr/StaticCall.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d3c0149f0c24e55212cb3798abee02b4" name="PHPParser/Node/Expr/StaticPropertyFetch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="1ace23e39e91739e8735c1b51165dd6a" name="PHPParser/Node/Expr/Ternary.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="14c187ef9ff552ed7a84eb52eeb1f498" name="PHPParser/Node/Expr/UnaryMinus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e581828a936d93e69475d7b4fd5df207" name="PHPParser/Node/Expr/UnaryPlus.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="93360973c891a03eea8fce1938732cf7" name="PHPParser/Node/Expr/Variable.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="99690195ea453ff65a01e882744c98e9" name="PHPParser/Node/Expr/Yield.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8929d031aa43c0789faa292b9d1fd57e" name="PHPParser/Node/Expr/Cast/Array.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fa71309614c15a47fb21fbcc92fc7a94" name="PHPParser/Node/Expr/Cast/Bool.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e29b4bc2193dd0118a56512daf75b449" name="PHPParser/Node/Expr/Cast/Double.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="15f3ca55fc36d3d096bdaa69c37d6994" name="PHPParser/Node/Expr/Cast/Int.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a62fbf980c4d2fe0c2f847bebb76c92d" name="PHPParser/Node/Expr/Cast/Object.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="cfe8f5e740da4c22cbb1989e35ec0465" name="PHPParser/Node/Expr/Cast/String.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9a12a3bc704925c4343ac87f303d3a57" name="PHPParser/Node/Expr/Cast/Unset.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fb818f6203937b95c81951399377be1f" name="PHPParser/Node/Name/FullyQualified.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="570dda11703ae2ca5d95efbee940b2c4" name="PHPParser/Node/Name/Relative.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fdb296951d200d867060b8b55f44504a" name="PHPParser/Node/Scalar/ClassConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d212812df92b6d101276a53e84e3f408" name="PHPParser/Node/Scalar/DirConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="70bc56307ed2a4174e841aea36d20599" name="PHPParser/Node/Scalar/DNumber.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="ca037d36414a2f6459c21c44014df5ec" name="PHPParser/Node/Scalar/Encapsed.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a4b26109066601e1d99b5ea038705ff4" name="PHPParser/Node/Scalar/FileConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="08a5c8c9d864d505d49c7f4e53ac44c5" name="PHPParser/Node/Scalar/FuncConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="033891f6f8d695ccb89bc106d17fcf54" name="PHPParser/Node/Scalar/LineConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="988d32b06f75ef9e4d6de21044d9bb73" name="PHPParser/Node/Scalar/LNumber.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="e213c760d4657e93261ad0a5098fca6f" name="PHPParser/Node/Scalar/MethodConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="6059e3dd96a5363511662652044a5293" name="PHPParser/Node/Scalar/NSConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="462cdea817a32f179e9760c83b6c9283" name="PHPParser/Node/Scalar/String.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="46e667e9ccf30e1a9a515137633e40a5" name="PHPParser/Node/Scalar/TraitConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="ae97add94ba09146917495c0bd37805e" name="PHPParser/Node/Stmt/Break.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="461ac8c57d2601a9c36a8e409b8904f5" name="PHPParser/Node/Stmt/Case.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="71383d606adfa28a53c15cef34993943" name="PHPParser/Node/Stmt/Catch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="45f87bf3a98731f27df4e8260fcdbcd5" name="PHPParser/Node/Stmt/Class.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="58d59185364bca96117ffdd9e23582f5" name="PHPParser/Node/Stmt/ClassConst.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a6633bb4a887c65cf3f932b1c7e54976" name="PHPParser/Node/Stmt/ClassMethod.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8024eadb144782f4e134f81ffeb14e95" name="PHPParser/Node/Stmt/Const.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d01f5e1dcf126df28bd6d0c29faa45af" name="PHPParser/Node/Stmt/Continue.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="b796b6d75c32309c83f754eb11eec803" name="PHPParser/Node/Stmt/Declare.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5667d65574681f0214dfd52fca6e4a59" name="PHPParser/Node/Stmt/DeclareDeclare.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="0bb5d2789618bbefb7b377ceca8c2101" name="PHPParser/Node/Stmt/Do.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="28f8a32c1fae6a09c366687558e45af9" name="PHPParser/Node/Stmt/Echo.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fe24d61079f4d15d7a2669df6989d84f" name="PHPParser/Node/Stmt/Else.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8b48973bbafa8cb390ecec26dabae90e" name="PHPParser/Node/Stmt/ElseIf.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a7ead3131f1e23d78dcd2c12624636b7" name="PHPParser/Node/Stmt/For.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9ea65e8fca2e48e3caa4fad6b8106e83" name="PHPParser/Node/Stmt/Foreach.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a73565fad30f98dcfb8919d4f2f15917" name="PHPParser/Node/Stmt/Function.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c205fff2bdf5989ff9047e0842b2358d" name="PHPParser/Node/Stmt/Global.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c5c6ae7ea0c7262eb1fb4f845e6a8762" name="PHPParser/Node/Stmt/Goto.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="3d8f1567a1e1f0efe9a28c09bcaefec3" name="PHPParser/Node/Stmt/HaltCompiler.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="5c92c675a2007e1d5b9be3f39649a5af" name="PHPParser/Node/Stmt/If.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="dd5c193b5e8f52e89ca225470080444a" name="PHPParser/Node/Stmt/InlineHTML.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="7f7d447b62c084d333de5e29e1776bfc" name="PHPParser/Node/Stmt/Interface.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="94f0ecf8a56d0f753fe8702d89029884" name="PHPParser/Node/Stmt/Label.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f78dede7734fc7982b7f3f74d1ebc702" name="PHPParser/Node/Stmt/Namespace.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="0d97bfc7b391683e8e9785d3f2e50f9f" name="PHPParser/Node/Stmt/Property.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="9861fa52a9231d578e615c1884f6b1a7" name="PHPParser/Node/Stmt/PropertyProperty.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="f488d796155ef2872da16e9a615dd47d" name="PHPParser/Node/Stmt/Return.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="3c3933b97c9375dc9446614319d382c8" name="PHPParser/Node/Stmt/Static.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="a0430b7efc2ec6aef1c86f762a50fe2d" name="PHPParser/Node/Stmt/StaticVar.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="36c2547d0e48be0d18da873b0ad5b37c" name="PHPParser/Node/Stmt/Switch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="7903556f7aad2db31c009f1a1b4fa37f" name="PHPParser/Node/Stmt/Throw.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="8761974bb7547af19e63b28fd51aec44" name="PHPParser/Node/Stmt/Trait.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="be4ade39c2ef18f4469dcc72999dd39d" name="PHPParser/Node/Stmt/TraitUse.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="fd3e4cb416e31313f28b7d868fd4cb13" name="PHPParser/Node/Stmt/TraitUseAdaptation.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="932e03c602a8bf30b6343c9e5f657d9a" name="PHPParser/Node/Stmt/TryCatch.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="d3d9367d0920acac9aacacd83939bbff" name="PHPParser/Node/Stmt/Unset.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2d1d624fd3ab30897527daf758dbd2ef" name="PHPParser/Node/Stmt/Use.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="0001b9cf67efb09230d015bdf3edb5fa" name="PHPParser/Node/Stmt/UseUse.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2650b3c6955ba8adbd089371be72c01a" name="PHPParser/Node/Stmt/While.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c7d57a80ca99cb6e9b25c49efe71c28a" name="PHPParser/Node/Stmt/TraitUseAdaptation/Alias.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="694dd7db33f73314baae6466569847f9" name="PHPParser/Node/Stmt/TraitUseAdaptation/Precedence.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="2e6a98589269f85625b5abac35219652" name="PHPParser/NodeVisitor/NameResolver.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="c1069a3065e36017ea0c0bcef0010b01" name="PHPParser/Parser/Debug.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="49aa6ea3816c6be3a509e7965785845e" name="PHPParser/PrettyPrinter/Default.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="57761168288a082e67a05480cba1cd1f" name="PHPParser/PrettyPrinter/Zend.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="aadf6643f39590c85c7aa76b1723dd5d" name="PHPParser/Serializer/XML.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="48867080bde60c76096d6745340afc7a" name="PHPParser/Unserializer/XML.php" role="php" />
+   <file baseinstalldir="PHPParser" md5sum="ec9f82bb48b7bc456f2788485f338523" name="bootstrap.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.6</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.4</release>
+    <api>0.9.4</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2013-08-25</date>
+   <license>BSD</license>
+   <notes>
+No release notes
+   </notes>
+  </release>
+ </changelog>
+</package>

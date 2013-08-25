@@ -7,11 +7,15 @@
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>BSD</l>
             <s>A PHP parser written in PHP</s>
-            <d>A PHP 5.4 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
+            <d>A PHP 5.5 (and older) parser written in PHP to simplify static analysis and code manipulation.</d>
             <r xlink:href="/rest/r/phpparser" />
         </p>
 
         <a>
+            <r>
+                <v>0.9.4</v>
+                <s>beta</s>
+            </r>
             <r>
                 <v>0.9.3</v>
                 <s>beta</s>
@@ -27,6 +31,10 @@
 
         </a>
 
+        <deps>
+            <v>0.9.4</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.6";}}}</d>
+        </deps>
         <deps>
             <v>0.9.3</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.6";}}}</d>
