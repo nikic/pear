@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://nikic.github.com/pear</id>
-    <updated>2013-08-25T22:05:09+02:00</updated>
+    <id>http://nikic.github.io/pear</id>
+    <updated>2014-04-12T18:59:48+02:00</updated>
     <title>nikic's PEAR channel Latest Releases</title>
-    <link href="http://nikic.github.com/pear/feed.xml" rel="self" />
+    <link href="http://nikic.github.io/pear/feed.xml" rel="self" />
     <author>
-        <name>http://nikic.github.com/pear</name>
+        <name>http://nikic.github.io/pear</name>
     </author>
 
     <entry>
         <title>PHPParser 0.9.4 (beta)</title>
-        <link href="http://nikic.github.com/pear/get/PHPParser-0.9.4.tgz" />
-        <id>http://nikic.github.com/pear/get/PHPParser-0.9.4.tgz</id>
+        <link href="http://nikic.github.io/pear/get/PHPParser-0.9.4.tgz" />
+        <id>http://nikic.github.io/pear/get/PHPParser-0.9.4.tgz</id>
         <author>
             <name>nikic</name>
         </author>
@@ -24,8 +24,8 @@ No release notes
         </content>
     </entry>    <entry>
         <title>PHPParser 0.9.3 (beta)</title>
-        <link href="http://nikic.github.com/pear/get/PHPParser-0.9.3.tgz" />
-        <id>http://nikic.github.com/pear/get/PHPParser-0.9.3.tgz</id>
+        <link href="http://nikic.github.io/pear/get/PHPParser-0.9.3.tgz" />
+        <id>http://nikic.github.io/pear/get/PHPParser-0.9.3.tgz</id>
         <author>
             <name>nikic</name>
         </author>
@@ -38,8 +38,8 @@ No release notes
         </content>
     </entry>    <entry>
         <title>PHPParser 0.9.2 (beta)</title>
-        <link href="http://nikic.github.com/pear/get/PHPParser-0.9.2.tgz" />
-        <id>http://nikic.github.com/pear/get/PHPParser-0.9.2.tgz</id>
+        <link href="http://nikic.github.io/pear/get/PHPParser-0.9.2.tgz" />
+        <id>http://nikic.github.io/pear/get/PHPParser-0.9.2.tgz</id>
         <author>
             <name>nikic</name>
         </author>
@@ -52,8 +52,8 @@ No release notes
         </content>
     </entry>    <entry>
         <title>PHPParser 0.9.1 (beta)</title>
-        <link href="http://nikic.github.com/pear/get/PHPParser-0.9.1.tgz" />
-        <id>http://nikic.github.com/pear/get/PHPParser-0.9.1.tgz</id>
+        <link href="http://nikic.github.io/pear/get/PHPParser-0.9.1.tgz" />
+        <id>http://nikic.github.io/pear/get/PHPParser-0.9.1.tgz</id>
         <author>
             <name>nikic</name>
         </author>

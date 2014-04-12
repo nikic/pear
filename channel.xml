@@ -6,10 +6,10 @@
     <servers>
         <primary>
             <rest>
-                <baseurl type="REST1.0">http://nikic.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.1">http://nikic.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.2">http://nikic.github.com/pear/rest/</baseurl>
-                <baseurl type="REST1.3">http://nikic.github.com/pear/rest/</baseurl>
+                <baseurl type="REST1.0">http://nikic.github.io/pear/rest/</baseurl>
+                <baseurl type="REST1.1">http://nikic.github.io/pear/rest/</baseurl>
+                <baseurl type="REST1.2">http://nikic.github.io/pear/rest/</baseurl>
+                <baseurl type="REST1.3">http://nikic.github.io/pear/rest/</baseurl>
             </rest>
         </primary>
     </servers>
