@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://nikic.github.io/pear</id>
-    <updated>2014-04-12T18:59:48+02:00</updated>
+    <updated>2014-07-23T20:35:18+02:00</updated>
     <title>nikic's PEAR channel Latest Releases</title>
     <link href="http://nikic.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>PHPParser 0.9.5 (beta)</title>
+        <link href="http://nikic.github.io/pear/get/PHPParser-0.9.5.tgz" />
+        <id>http://nikic.github.io/pear/get/PHPParser-0.9.5.tgz</id>
+        <author>
+            <name>nikic</name>
+        </author>
+        <updated>2014-07-23T18:30:05+02:00</updated>
+        <content>
+            A PHP 5.5 (and older) parser written in PHP to simplify static analysis and code manipulation.
+            
+No release notes
+ 
+        </content>
+    </entry>    <entry>
         <title>PHPParser 0.9.4 (beta)</title>
         <link href="http://nikic.github.io/pear/get/PHPParser-0.9.4.tgz" />
         <id>http://nikic.github.io/pear/get/PHPParser-0.9.4.tgz</id>
